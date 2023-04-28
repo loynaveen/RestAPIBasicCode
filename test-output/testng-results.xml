@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-26T12:54:26 GMT-04:00" name="Default suite" finished-at="2023-04-26T12:54:31 GMT-04:00" duration-ms="4745">
+  <suite started-at="2023-04-27T12:36:17 GMT-04:00" name="Default suite" finished-at="2023-04-27T12:36:20 GMT-04:00" duration-ms="3476">
     <groups>
     </groups>
-    <test started-at="2023-04-26T12:54:26 GMT-04:00" name="Default test" finished-at="2023-04-26T12:54:31 GMT-04:00" duration-ms="4745">
-      <class name="datadriventesting.DataDrivenTest_AddNewEmployees">
-        <test-method signature="postNewEmployees(java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.DataDrivenTest_AddNewEmployees@5fbdfdcf]" started-at="2023-04-26T12:54:28 GMT-04:00" name="postNewEmployees" data-provider="empDataProvider" finished-at="2023-04-26T12:54:30 GMT-04:00" duration-ms="2439" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DELICIA]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[HR]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-04-27T12:36:17 GMT-04:00" name="Default test" finished-at="2023-04-27T12:36:20 GMT-04:00" duration-ms="3476">
+      <class name="TC006_GET_ExtractValuesOfEachNodeInJSON">
+        <test-method signature="getWeatherDetails()[pri:0, instance:TC006_GET_ExtractValuesOfEachNodeInJSON@73700b80]" started-at="2023-04-27T12:36:17 GMT-04:00" name="getWeatherDetails" finished-at="2023-04-27T12:36:20 GMT-04:00" duration-ms="3436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postNewEmployees -->
-        <test-method signature="postNewEmployees(java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.DataDrivenTest_AddNewEmployees@5fbdfdcf]" started-at="2023-04-26T12:54:30 GMT-04:00" name="postNewEmployees" data-provider="empDataProvider" finished-at="2023-04-26T12:54:31 GMT-04:00" duration-ms="336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LOY]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[FACTORY]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postNewEmployees -->
-        <test-method signature="postNewEmployees(java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.DataDrivenTest_AddNewEmployees@5fbdfdcf]" started-at="2023-04-26T12:54:31 GMT-04:00" name="postNewEmployees" data-provider="empDataProvider" finished-at="2023-04-26T12:54:31 GMT-04:00" duration-ms="306" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[JOY]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LOVE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postNewEmployees -->
-        <test-method signature="postNewEmployees(java.lang.String,java.lang.String)[pri:0, instance:datadriventesting.DataDrivenTest_AddNewEmployees@5fbdfdcf]" started-at="2023-04-26T12:54:31 GMT-04:00" name="postNewEmployees" data-provider="empDataProvider" finished-at="2023-04-26T12:54:31 GMT-04:00" duration-ms="319" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[BOY]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GOWDA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postNewEmployees -->
-      </class> <!-- datadriventesting.DataDrivenTest_AddNewEmployees -->
+        </test-method> <!-- getWeatherDetails -->
+      </class> <!-- TC006_GET_ExtractValuesOfEachNodeInJSON -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
